@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+    <children>
+        <AnchorPane layoutY="91.0" prefHeight="309.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <TextField fx:id="signUpLogin" layoutX="14.0" layoutY="71.0" prefHeight="25.0" prefWidth="288.0" promptText="Логин" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="signUpPassword1" layoutX="14.0" layoutY="155.0" prefHeight="25.0" prefWidth="288.0" promptText="Пароль" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </PasswordField>
+                <Label layoutX="263.0" layoutY="14.0" text="регистрация" textFill="#a19494">
+                    <font>
+                        <Font name="Sitka Small Italic" size="26.0" />
+                    </font>
+                </Label>
+                <Button fx:id="signUpButton" layoutX="510.0" layoutY="243.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="176.0" style="-fx-background-color: #F39C63;" text="Зарегистрироваться" textFill="#6b6969">
+                    <font>
+                        <Font name="Sitka Small Italic" size="14.0" />
+                    </font>
+                </Button>
+            <PasswordField fx:id="signUpPassword2" layoutX="14.0" layoutY="218.0" prefHeight="25.0" prefWidth="288.0" promptText="Пароль" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="14.0" layoutY="45.0" text="введите индефикационный номер пасспорта" textFill="#a19494">
+               <font>
+                  <Font name="Sitka Small Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="195.0" text="повторите пароль" textFill="#a19494">
+               <font>
+                  <Font name="Sitka Small Italic" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="550.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/hi.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="219.0" layoutY="14.0" text="Car Rental" textFill="#bf8e8e">
+            <font>
+                <Font name="Sitka Small Italic" size="50.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
